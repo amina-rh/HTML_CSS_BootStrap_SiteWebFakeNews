@@ -1,0 +1,115 @@
+/*General Styles*/
+*{
+	font-family:century Gothic;
+	font-size: 10pt;
+}
+
+.sections{
+	padding:20px 0;
+}
+.overlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+}
+
+.form-control{
+   
+    size: 20px;
+}
+#utilisateur{
+	left:980px;
+	position:relative ;
+	top:10px;
+}
+#coeur{
+	left:890px;
+	position: relative;
+		top:10px;
+
+}
+#panier{
+	left:800px;
+	position: relative;
+		top:10px;
+}
+
+
+
+
+
+
+@media (max-width: 575px){
+	header nav .nav-list{
+	display: none;
+	text-align: center;
+	padding: 0;
+}
+header.logo{
+	text-align: center;
+	position: relative;
+	left:100px;
+	color: navy;
+}
+header i.icon{
+	color:white;
+	display: block
+}
+}
+/*HOME SECTION*/
+.home{
+	height:500px;/*hauteur de home section*/
+	background-image: url(image/lib.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.home .home-content{/*contenu au centre*/
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 150px;
+}
+.home .home-title {
+	color:white;
+	font-size: 40px;
+	margin-bottom: 20px;
+	
+}
+.home .home-desc {
+	color:white;
+	font-size: 20px;
+	
+}
+.home .btn{
+	background:#7ch62f;
+	color: navy;
+	font-size: 12pt;
+	font-weight:bold;
+	width: 250px;
+	text-align: center;
+	padding: 10px 0;
+}
+@media (max-width: 575px){
+	.home .home-title {
+		font-size: 30px;
+	}
+	.home .home-desc {
+	font-size: 15px;
+	}
+	.home .btn{
+		margin-bottom: 10px;
+}
+}
+
+/***FOOTER***/
+footer{
+
+background-color:#EAB60A;
+font-weight: bold;
+	background-size: 100px;
+}

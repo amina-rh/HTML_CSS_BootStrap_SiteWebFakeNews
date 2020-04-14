@@ -1,0 +1,20 @@
+
+
+/***LA BARE DU MENU***/
+.navbar{
+	background-color: #03003d;
+}
+.nav-item:hover{
+	color: red;
+}
+
+/***FOOTER***/
+footer{
+	background-color: #FF7F50;
+	background-size: 100px;
+}
+
+body {
+min-height:100%;
+position:center;
+}

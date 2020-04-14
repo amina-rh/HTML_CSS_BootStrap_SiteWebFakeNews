@@ -1,0 +1,65 @@
+/***Body***/
+
+/***LA PHOTO TOUT EN HAUT DE LA PAGE***/
+
+
+/***PHOTO MAP
+.titlebackground{
+	background-image: url(images/worldnews2.jpg);
+	 background-repeat: no-repeat; 
+	 background-size: 1400px 250px;
+	 background-position: center;
+	 }
+****/
+/****PHOTO LOGO****/
+.titlebackground{
+	background-image: url(images/worldnews4.png);
+	 background-repeat: no-repeat; 
+	 background-size: 1400px 700px;
+	 background-position: center;
+	 }
+
+
+/***LA BARE DU MENU***/
+.navbar{
+	background-color: #EAB60A;
+
+}
+.nav-link:hover{
+	color: red;
+}
+
+.dropdown-menu{
+
+}
+
+/***bare de menu test***/
+
+
+/***Container***/
+
+.container{
+	background-color: #DCDBDB;
+}
+/****position du mot international
+.inter{
+	margin-left: 400px;
+}
+****/
+/****position de la date
+.date{
+	margin-left: 450px;
+}
+****/
+/***FOOTER***/
+footer{
+	background-color: #EAB60A;
+	background-size: 100px;
+}
+
+/***barre de recherche ****/
+
+
+/*******corps formulaire****/
+
+

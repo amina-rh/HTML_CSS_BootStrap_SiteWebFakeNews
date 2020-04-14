@@ -1,0 +1,280 @@
+/***Body***/
+
+/***LA PHOTO TOUT EN HAUT DE LA PAGE***/
+
+
+/***PHOTO MAP
+.titlebackground{
+	background-image: url(images/worldnews2.jpg);
+	 background-repeat: no-repeat; 
+	 background-size: 1400px 250px;
+	 background-position: center;
+	 }
+****/
+/****PHOTO LOGO****/
+.titlebackground{
+	background-image: url(images/worldnews4.png);
+	 background-repeat: no-repeat; 
+	 background-size: 1400px 700px;
+	 background-position: center;
+	 }
+
+
+/***LA BARE DU MENU***/
+.navbar{
+	background-color: #EAB60A;
+
+}
+.nav-link:hover{
+	color: red;
+}
+
+.dropdown-menu{
+
+}
+
+/***bare de menu test***/
+
+
+/***Container***/
+
+.container{
+	background-color: #DCDBDB;
+}
+/****position du mot international
+.inter{
+	margin-left: 400px;
+}
+****/
+/****position de la date
+.date{
+	margin-left: 450px;
+}
+****/
+/***FOOTER***/
+footer{
+	background-color: #EAB60A;
+	background-size: 100px;
+}
+
+/***barre de recherche ****/
+
+
+
+
+/*** corps du corp page à la une mohaned ***/
+
+
+
+
+.fakeimg1 , .fakeimg2
+{
+    margin-top: 15px;
+    height: 210px;
+    width: 100%;
+    border-radius: 5px;
+    background: url('images/test.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+  }
+
+
+
+
+
+
+
+/***************************les article les plus lus***********************************************/
+
+
+.olart {counter-reset: repas;} /* on initialise et nomme un compteur */
+.liart {
+	list-style-type: none;
+	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	margin-bottom: 10px;
+}
+.liart:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 0 10px 6px;
+	margin-right: 8px;
+	margin-left: -45px;
+	vertical-align: top;
+	background: #678;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;		
+}
+.lalpl{
+	text-align: center;
+}
+.ladm{
+	text-align: center;
+}
+
+
+.titreart{
+	color: rgb(0,0,0);
+	font-size: 20px;
+}
+.titreart :hover{
+	color: rgb(0,0,0);
+}
+.regle{
+	height: 5px; color: #839D2D; width: 100%; background-color :rgb(111,111,111);
+}
+
+
+.reglebis{
+	height: 5px; color: #839D2D; width: 80%; background-color :rgb(111,111,111);
+}
+
+
+/*************************ATTENTION MEDIA**************************************/
+#banniere_descriptionH{
+	position: absolute;
+    top: 0;
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(111,111,111,0.9);
+    color: white;
+    font-size: 1.5em; 
+}
+
+.fakeimgAM{
+
+	margin-top: 15px;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+
+}
+.imageAM
+{
+
+	margin-top: 0px;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+.imageAM:hover {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+/**************/
+
+.btn{ 
+	width: 50%;
+	margin: 5px;
+}
+#inscri{
+	background-color: #03003d; 
+	padding: 10px;
+}
+#cadre{
+	background-color: #03003d; 
+}
+.dropdown-menu{
+	background-color: #03003d; 
+}
+
+/***************/
+.reaseax-sociaux{
+	list-style:none;
+	
+}
+.montion-legale{
+	list-style:none;
+	
+}
+.contacte
+{
+	list-style:none;
+	
+}
+.element{
+	color: rgb(255,255,255);
+  }
+
+
+
+
+  /* Bannière */
+
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em; 
+}
+
+.fas
+{
+	font-size:12px;
+	color:rgb(0,162,232);
+	position: absolute;
+	right: 5px;
+    bottom: 36px;
+    border-radius: 32px;
+    padding: 11px 11px 9px 11px;
+    background-color: rgb(192,192,192);
+    border: 1px solid white;
+}
+
+.bouton_rouge
+{
+
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    background-color: rgb(255,201,14); 
+    border: 1px solid rgb(255,201,14) ;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+#foot{
+	background-color: #f0670c;
+}
+/*** fin corps de la page mohaned ***/
